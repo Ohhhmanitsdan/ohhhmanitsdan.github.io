@@ -30,6 +30,7 @@ nav a:hover {
 }
 .main {
     display: flex;
+    gap: 1rem;
     margin-top: 8rem;
 }
 .intro-txt {
