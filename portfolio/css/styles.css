@@ -57,3 +57,25 @@ nav a:hover {
     clear: both;
 }
 
+ .panels{
+    list-style-type: none;
+    padding: 0;
+    margin: 5rem auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.proj1, .proj2, .proj3 {
+    margin: 2rem;
+    width: 25rem;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 6px;
+    display: block;
+    text-decoration: none;
+}
+.panels a:hover{
+    background-color: rgb(88, 88, 88);
+}
