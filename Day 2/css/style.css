@@ -1,0 +1,74 @@
+/* My first css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc; 
+}
+
+img {
+    border: 10px solid greenyellow;
+}
+
+h1 {
+    border: 5px dotted pink;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-image: url(http://placekitten.com/200/300);
+    
+}
+
+cite {
+    font-size: 1.5rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+h2,h3, .bigbold, a:link {
+    color: orange
+}
+
+ol {
+    color: #0F9BF4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lastparagraph {
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+a:visited {
+    color: pink;
+    font-weight: normal;
+}
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+    background-color: white;
+}
+a.harvard:link {
+    color: maroon;
+}
+p {
+    color: #FF614A;
+}
+
+#myid {
+    color: purple;
+    font-weight: bold;
+}
