@@ -30,15 +30,11 @@ nav a:hover {
 }
 .main {
     display: flex;
-    gap: 1rem;
-    margin-top: 8rem;
-
-}
-.intro-txt {
-    flex: 1;
-    text-align: center;
-    padding: 0;
-    margin: 8rem 0 0 0; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 15rem;
 }
 .about {
     display: block;
@@ -62,7 +58,7 @@ nav a:hover {
     padding: 0;
     margin: 5rem auto;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 .proj1, .proj2, .proj3 {
