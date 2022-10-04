@@ -32,11 +32,28 @@ nav a:hover {
     display: flex;
     gap: 1rem;
     margin-top: 8rem;
+
 }
 .intro-txt {
     flex: 1;
     text-align: center;
     padding: 0;
-    margin: 10rem 0 0 0; 
+    margin: 8rem 0 0 0; 
+}
+.about {
+    display: block;
+}
+.me {
+    text-align: left;
+}
+.floatselfie {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 10px;
+}
+.me:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
