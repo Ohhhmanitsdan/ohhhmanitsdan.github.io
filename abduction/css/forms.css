@@ -18,6 +18,27 @@ body {
 	flex-flow: row nowrap;
 	background-color: #db9b23;
 }
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+	background-color: #db9b23;
+	width: 80%;
+}
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9c1000;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+nav a:hover {
+    color: #b91300;
+}
 section {
 	flex-basis: 57%;
 	margin-right: 10%;
