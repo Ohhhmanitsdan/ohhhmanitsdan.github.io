@@ -16,7 +16,7 @@ body {
 	padding: 1em;
 	display: flex;
 	flex-flow: row nowrap;
-	background-color: #60AAD9;
+	background-color: #db9b23;
 }
 section {
 	flex-basis: 57%;
@@ -34,7 +34,9 @@ fieldset {
 	margin-bottom: 2rem;
 }
 legend {
+	
 	font-weight: bold;
+	font-family: 'Creepster', cursive;
 	font-size: 1.3rem;
 	margin-top: 1.5rem;
 	margin-bottom: 1rem;
@@ -55,15 +57,15 @@ select {
 button {
 	font-size: 1rem;
 	margin: 2rem 0;
-	background-color: #065383;
-	color: white;
+	background-color: #b38e2a;
+	color: black;
 	border: none;
 	padding: 0.5rem 1rem;
 	border-radius: 10px;
 }
 button:hover {
-	background-color: white;
-	color: black;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 input:not([type="radio"]):not([type="checkbox"]), textarea, select {
 	display: block;
@@ -74,6 +76,9 @@ input:not([type="radio"]):not([type="checkbox"]), textarea, select {
 	padding: 0 1rem;
 	border-radius: 10px;
 	border: none;
+}
+h1 {
+	font-family: 'Creepster', cursive;
 }
 
 
