@@ -61,7 +61,7 @@ nav a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.proj1, .proj2, .proj3 {
+.proj1, .proj2, .proj3 { 
     margin: 2rem;
     width: 25rem;
     box-sizing: border-box;
