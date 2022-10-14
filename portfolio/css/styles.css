@@ -75,3 +75,9 @@ nav a:hover {
 .panels a:hover{
     background-color: rgb(88, 88, 88);
 }
+
+.projects {
+    text-align: left;
+    display: block;
+    padding: 1rem 0 0 7.2rem;
+}
